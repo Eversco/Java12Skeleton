@@ -1,10 +1,10 @@
-arrayequals.java:
+arrayequals.java: compares arrays to check the equality
 
-arrayinitialize.java:
+arrayinitialize.java: array all initialized in one line and printed out.
 
-arrayinitialize2.java:
+arrayinitialize2.java: Arrays not in same line and printed out.
 
-arraysort.java:
+arraysort.java: Arrays.sort prints out the number from least value to the greatest value
 
 breakoutwhilenested.java:
 
