@@ -2,7 +2,7 @@ import java.io.*;
 
 class CreditReader {
     public static void main(String[] args) {
-        String fileName = "reaper.txt";
+        String fileName = "Credit";
         String line;
 
         try {

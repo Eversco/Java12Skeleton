@@ -6,21 +6,21 @@ arrayinitialize2.java: Arrays not in same line and printed out.
 
 arraysort.java: Arrays.sort prints out the number from least value to the greatest value
 
-breakoutwhilenested.java:
+breakoutwhilenested.java: 
 
-bufferedreaderinput.java:
+bufferedreaderinput.java: Uses Bufferedeader to read characters and parsint to read integer and finally read out name.
 
-continueexample.java:
+continueexample.java: the Continue redo the loop. In the example, if the value of y is divisible by three, it does not print out and redo the loop.
 
-copyarray.java:
+copyarray.java: Copies an array from small prime and starting to replace another from a certain location.
 
-doloop.java:
+doloop.java: Increase a the variable by adding while multiply by five but not changing the original value.
 
-foreachloop.java:
+foreachloop.java: Just prints out the arrays. Yeah... That's it...
 
-foreachmulti.java:
+foreachmulti.java: Prints out arrays of array. Yeah......
 
-forloop.java:
+forloop.java: Same thing as doloop except it uses for loop which is slightly shorter.
 
 functionvoid.java:
 
