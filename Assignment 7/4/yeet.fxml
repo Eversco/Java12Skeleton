@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:controller="Buttonhandle" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <Label>Hey</Label>
+        <Label>What up</Label>
+        <Label>aaaaaaaaaa</Label>
+        <Label>In the beginning there was nothing.</Label>
+        <Button fx:id="coolbutton" onAction="#handleButtonAction">Click</Button>
+        <Button fx:id="secondButton" onAction="#betterButtonAction">Better</Button>
+    </children>
+</VBox>

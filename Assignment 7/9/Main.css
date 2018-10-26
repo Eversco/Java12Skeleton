@@ -1,0 +1,11 @@
+.root {
+    -fx-font: bold italic 20pt "Arial";
+    -fx-font-size: 24px;
+    -fx-background-color: #ddd4da;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}

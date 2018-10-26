@@ -1,0 +1,11 @@
+.root {
+    -fx-font: bold italic 20pt "Lucida Bright";
+    -fx-font-size: 24px;
+    -fx-background-color: #4e70df; 
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}

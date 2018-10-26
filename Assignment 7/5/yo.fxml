@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import java.net.URL?>
+<FlowPane fx:controller="ExtendedButton" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <Label>Hey</Label>
+        <Label>What up</Label>
+        <Label>aaaaaaaaaa</Label>
+        <Label>In the beginning there was nothing.</Label>
+        <Button fx:id="coolbutton" onAction="#handleButtonAction">Click</Button>
+    </children>
+</FlowPane>

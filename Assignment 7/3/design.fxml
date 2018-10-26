@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:controller="ButtonHandler" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <Label>Hey</Label>
+        <Label>My back Itchy</Label>
+        <Label>I can't scratch it</Label>
+        <Label>Click the button below to scratch my back.</Label>
+        <Button fx:id="coolbutton" onAction="#handleButtonAction">Click</Button> 
+        <Button fx:id="secondButton" onAction="#betterButtonAction">Much Better</Button>
+    </children>
+</VBox>

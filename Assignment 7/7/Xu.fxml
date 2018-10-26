@@ -1,0 +1,15 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import java.net.URL?>
+<FlowPane fx:id="root" fx:controller="ButtonQuitter" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <Label>Enter</Label>
+        <Label>The</Label>
+        <Label>Button</Label>
+        <Label>So I can be shut down.</Label>
+        <Button fx:id="coolbutton" onAction="#handleButtonAction">Quit</Button>
+    </children>
+</FlowPane>

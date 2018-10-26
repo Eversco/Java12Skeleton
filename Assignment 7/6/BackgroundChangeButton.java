@@ -1,3 +1,4 @@
+import javafx.scene.control.Button;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -7,13 +8,18 @@ import javafx.stage.Stage;
 import java.net.URL;
 import javafx.event.ActionEvent;
 
-public class ButtonQuitter extends Application {
-    public void handleButtonAction(ActionEvent event) { // holds the control of button. The system would be shut down once it's pressed.
-    System.exit(0);
+public class BackgroundChangeButton extends Application {
+
+
+    
+    @FXML //Decorator
+    private FlowPane root; //transporting variable from fxml. Which is root
+    public void handleButtonAction(ActionEvent event) { // button for changing colour. It holds the control of what happens being pressed
+        root.setStyle("-fx-background-color: #5b71d6;");
     }
     @Override
-    public void start(Stage primaryStage) throws Exception { // repeated codes
-        URL fxmlURL = ButtonQuitter.class.getResource("Xu.fxml");
+    public void start(Stage primaryStage) throws Exception { // The rest of them are repeated codes throughout the assignment
+        URL fxmlURL = BackgroundChangeButton.class.getResource("hsu.fxml");
 
         primaryStage.setTitle("ayyy lmao");
         FXMLLoader loader = new FXMLLoader();
@@ -24,6 +30,7 @@ public class ButtonQuitter extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
     public static void main(String[] args) {
         Application.launch(args);
     }
