@@ -22,37 +22,37 @@ foreachmulti.java: Prints out arrays of array. Yeah......
 
 forloop.java: Same thing as doloop except it uses for loop which is slightly shorter.
 
-functionvoid.java:
+functionvoid.java: Void main is just adding two set of two numbers. Void add gives the variable or identit of them in list form and print out sum.
 
-globalconstant.java:
+globalconstant.java: Similar to funtionvoid. Making two sets of two numbers and then create variable for them in list in w and h. And then multiply with 2.54 for each of them. 2.54 is in final meaning it can never be changed.
 
-ifstatement.java:
+ifstatement.java: giving a instruction of what output needs to be made giving the condition. IN this case X is positive becuz the if condition says x is positive if it's bigger than 1.
 
-joptionpaneinput.java:
+joptionpaneinput.java: jOptionPane is basically a fancy input box function. That ask for things and output things.
 
-localconstant.java:
+localconstant.java: gives 2.54 an absolute variable and multiply other variables and print out
 
-logic.java:
+logic.java: when the variable is declared, the if staements declare which one it is supposed to determine. the symbol ! Can be used to determine things as false. So in this case (!x && y && z) is the right one. And then a is in range between 1.5 and 1.2 because it is.
 
-mainargsarray.java:
+mainargsarray.java: If the length declared is 0 which has never been declared in the first place it prints out no main arguement. Put if it was delared other than 0, it goes in a loop.
 
-mathoperatorsfunctions.java:
+mathoperatorsfunctions.java: declared variables with values. And then print out of different calculation. With % print out remainder of division. Math.pow prints out the first number of list to the power of the second number. Math.Sqrt does square root. Math.cos(Math.Pi) pritns out the cos of Pi (its two functions together).
 
-multidimensionalarray.java:
+multidimensionalarray.java: There are lists in form of a list. The loop of row is in range of the length of list so it can print out all the list. The loop of col is in range of the amount of each list so it all numbers are printed out in each lists.
 
-nesteddowhile.java:
+nesteddowhile.java: loop of col is always = 1 again after the inner loop has col increase also has the limit of printing 3 times. Loop of row only = 1 outside and always adds 1 and inside the inner loop it times col. Has restriction of printing 4 times.
 
-nestedfor.java:
+nestedfor.java: row starts from 1 and adds 1 every time col is added with one and mulitply row.
 
-nestedif.java:
+nestedif.java: if x is greater than 0, proceed to checking if y is greater than or lesser than 0. 
 
-nestedswitchstatement.java:
+nestedswitchstatement.java: the value of x is used with the case. So x = 1. Than case being printed out is case(1). Same goes for y and y is inside case(1).
 
-nestedwhile.java:
+nestedwhile.java: similar to nesteddowhile. Except it doesnt use do loop but instead while loop with same condition being used in nesteddowhile.
 
-overloadedfunction.java:
+overloadedfunction.java: finishing all operation in main and print out in rest of of statics.
 
-raggedarray.java:
+raggedarray.java: 
 
 randomnumber.java:
 

@@ -1,0 +1,12 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import java.net.URL?>
+<FlowPane fx:id="root" fx:controller="TestTextField" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+    <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <TextField></TextField>
+        <Label>This is a label</Label>
+    </children>
+</FlowPane>

@@ -1,0 +1,19 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<FlowPane fx:id="root" fx:controller="TempConversion" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+    <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <VBox>
+        <Label>Celcius</Label>
+        <TextField fx:id="firstField"></TextField>
+        </VBox>
+        <VBox>
+        <Label>Farenheit</Label>
+        <TextField fx:id="secondField"></TextField>
+        </VBox>
+    </children>
+</FlowPane>
