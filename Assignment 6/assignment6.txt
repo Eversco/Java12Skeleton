@@ -34,7 +34,7 @@ localconstant.java: gives 2.54 an absolute variable and multiply other variables
 
 logic.java: when the variable is declared, the if staements declare which one it is supposed to determine. the symbol ! Can be used to determine things as false. So in this case (!x && y && z) is the right one. And then a is in range between 1.5 and 1.2 because it is.
 
-mainargsarray.java: If the length declared is 0 which has never been declared in the first place it prints out no main arguement. Put if it was delared other than 0, it goes in a loop.
+mainargsarray.java: Giving each given strings its args in a list.
 
 mathoperatorsfunctions.java: declared variables with values. And then print out of different calculation. With % print out remainder of division. Math.pow prints out the first number of list to the power of the second number. Math.Sqrt does square root. Math.cos(Math.Pi) pritns out the cos of Pi (its two functions together).
 
@@ -52,22 +52,22 @@ nestedwhile.java: similar to nesteddowhile. Except it doesnt use do loop but ins
 
 overloadedfunction.java: finishing all operation in main and print out in rest of of statics.
 
-raggedarray.java: 
+raggedarray.java: First time row prints out [0][0] and in another loop it is declare [0][1] after ragged[0] = int[2] and the loop condition was < row's length. Rest of them print out the list given already because there are no value switching. 
 
-randomnumber.java:
+randomnumber.java: Loop goes 10 times. Print out random doubles.
 
-reinitializearray.java:
+reinitializearray.java: Prints out given array list. And then reinitialize them for the second loop.
 
-scannerinput.java:
+scannerinput.java: Request for name and date on today. The date of today would change the scanner from string to int. and then print out add the date of today and say what tomorrow is.
 
-searcharray.java:
+searcharray.java: Prints out array list. Search for the value of index which is 2 because 4 is in the third place in order which is known as [2] in a list.
 
-stringtonumber.java:
+stringtonumber.java: In different variables, given same value in form of context but different type in identifying. The numbers are switch to strings or int and etc throughout.
 
-switchstatement.java:
+switchstatement.java: Skip first two case because x do not equal to them. X = 3 but case 3 and 4 do not have anything hence skip to case 5.  
 
-typecast.java:
+typecast.java: x = a double. y = x in int. Thus y = 11 because it rounds x.
 
-types.java:
+types.java: Just printing out whats given to each variables
 
-whileloop.java:
+whileloop.java: x loop imited in 10. in loop, print out x * 5 and then x increase 1 more every loop.
