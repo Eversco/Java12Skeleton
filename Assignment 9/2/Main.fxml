@@ -1,0 +1,23 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<FlowPane fx:id="root" fx:controller="DistanceConverter" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+    <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <VBox>
+        <Label>Input</Label>
+        <TextField fx:id="firstField"></TextField>
+        </VBox>
+        <VBox>
+        <Label>Output</Label>
+        <TextField fx:id="third"></TextField>
+        </VBox>
+        <VBox>
+        <Button fx:id="FC" onAction="#CmIn">" to cm</Button>
+        <Button fx:id="CF" onAction="#InCm"> cm to "</Button>
+        </VBox>
+    </children>
+</FlowPane>
