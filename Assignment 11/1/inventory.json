@@ -1,0 +1,1 @@
+[{"py/object": "item.Item", "current_renter": "None", "genre": "Sci-Fi", "price": "5.00", "shelf_number": "4", "title": "star fart", "year": "1723"}, {"py/object": "item.Item", "current_renter": "Chad", "genre": "Thriller", "price": "5.00", "shelf_number": "2", "title": "Predator", "year": "1985"}]
