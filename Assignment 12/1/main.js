@@ -14,7 +14,13 @@ function counter() {
 }
 
 //#3 Create another function and button that will do the 3 times table from -100 to 100
-
+function threeTab() {
+    let out = document.getElementById("threeTimes");
+    for (i = -100; i <= 100; i++){
+        let x = i * 3;
+        out.innerHTML += i + "*" + "3 = " + x + "</br>";
+    }
+}
 //#4 What does i++ do?
 
 function helloName() {
@@ -43,7 +49,17 @@ function mathAdder() {
         }
     }
 }
-
+function arith(){
+    let inputOne = document.getElementById("inputOne");
+    let inputTwo = document.getElementById("inputTwo");
+    let x = parseFloat(inputOne.value);
+    let y = parseFloat(inputTwo.value);
+    let sum = x + y;
+    let difference = x - y;
+    let Mult = x * y;
+    let divided = x / y;
+    document.write(sum + "</br>" + difference + "</br>" + Mult + "</br>" + divided);
+}
 //#6 Add a new function that will show the numbers added, subtracted, multiplied, and divided
 
 //#7 What does != mean?
@@ -111,3 +127,59 @@ function rollTheDice() {
 
 
 //#9 Make a game with 4 dice and below 14 or over 14 for the betting
+function dice(){
+    
+    let money = 100;
+
+    let bet = 1000;
+    // #10 Does it matter what value we give to bet here and why or why not?
+
+    alert("Play til you lose it all");
+
+    while (money >= 1) {
+        //no betting more money than you have!
+        //the line below will go forever...the if...break will
+        //get you out of this infinite betting loop if you bet legally
+
+        while (true) {
+            pick = window.prompt("Please pit over 14(o) or under 14(u)", "u");
+
+            bet = parseInt(window.prompt("Please bet", money));
+           
+
+            if (bet <= money && bet > 0) {
+                break;
+            }
+            
+
+            alert("Illegal Betting detected!");
+        }
+
+        let die1 = Math.floor(Math.random() * 6 + 1);
+    
+        let die2 = Math.floor(Math.random() * 6 + 1);
+
+        let die3 = Math.floor(Math.random() * 6 + 1);
+
+        let die4 = Math.floor(Math.random() * 6 + 1);
+
+        let total = die1 + die2 + die3 + die4;
+
+        document.write("</br>You rolled " + die1 + ", " + die2 + ", " + die3 + " and " + die4 + " total = " + total);
+        document.write("</br>You picked " + pick + " and rolled " + total);
+
+        if ((pick == "u" && total < 14) || (pick == "o" && total > 14)) {
+            money = money + bet;
+            document.write(" You won! You now have $" + money);
+        } else if (total == 7) {
+            document.write(" 14 is a tie...no winner..keep your bet");
+        } else {
+            money = money - bet;
+    
+
+            document.write(" You Lost! You now have $" + money);
+        }
+    }
+    alert("Thanks for giving me all of your money!");
+
+}
